@@ -520,7 +520,7 @@
 	}
 
 	setTimeout(function() {
-		var anchor = document.querySelector('a[href="https://elfsight.com/google-reviews-widget/?utm_source=websites&utm_medium=clients&utm_content=google-reviews&utm_term=127.0.0.1&utm_campaign=free-widget"]');
+		var anchor = document.querySelector('a[href="https://elfsight.com/google-reviews-widget/?utm_source=websites&utm_medium=clients&utm_content=google-reviews&utm_term=optimaltraining.netlify.app&utm_campaign=free-widget"]');
 
 		// If the anchor is found, remove it
 		if (anchor) {
