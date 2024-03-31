@@ -518,9 +518,7 @@
 				}
 		});
 	}
-// Wait for the widget to load
-window.addEventListener('load', function() {
-	// Find the anchor element with the specific link
+
 	setTimeout(function() {
 		var anchor = document.querySelector('a[href="https://elfsight.com/google-reviews-widget/?utm_source=websites&utm_medium=clients&utm_content=google-reviews&utm_term=127.0.0.1&utm_campaign=free-widget"]');
 
@@ -529,6 +527,5 @@ window.addEventListener('load', function() {
 			anchor.parentNode.removeChild(anchor);
 		}
 	}, 3000);
-});
 
 })(jQuery);
