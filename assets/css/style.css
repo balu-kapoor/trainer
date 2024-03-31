@@ -6444,7 +6444,7 @@ p.checkout-coupon input[type=text]::placeholder {
   font-size: 50px;
 }
 
-.square__section {
+/* .square__section {
   position: relative;
   overflow: hidden;
 }
@@ -6459,5 +6459,5 @@ p.checkout-coupon input[type=text]::placeholder {
   background: linear-gradient(to top right, #ffcc00 50%, transparent 50%);
   transform-origin: bottom left;
   transform: skewY(-20deg);
-}
+} */
 /*# sourceMappingURL=style.css.map */
