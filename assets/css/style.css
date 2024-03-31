@@ -2357,7 +2357,7 @@ textarea:focus {
 
 .choose-us-area {
   margin-right: 7%;
-  margin-top: -185px;
+  /* margin-top: -185px; */
   position: relative;
   background: #ffffff;
 }
@@ -3374,8 +3374,8 @@ textarea:focus {
 /*  07. Portfolio CSS
 /*----------------------------------------*/
 .fitness-gallery-area {
-  padding-top: 145px;
-  padding-bottom: 110px;
+  /* padding-top: 145px; */
+  /* padding-bottom: 110px; */
   position: relative;
 }
 
@@ -6364,6 +6364,8 @@ p.checkout-coupon input[type=text]::placeholder {
 .slogan-title {
   position: relative;
   line-height: 2rem;
+  font-size: 2rem;
+  text-align: center;
 }
 .we-component-team-slogan .custom-background, .we-component-team-slogan .custom-background-some {
   margin-top: 0 !important;
@@ -6383,6 +6385,18 @@ p.checkout-coupon input[type=text]::placeholder {
   .square__section {
     padding: 2rem;
   }
+  .slogan-title {
+    font-size: 1.5rem;
+  }
+  .slogan-wrapper {
+    margin: 0 !important;
+  }
+}
+
+.slogan-wrapper {
+  position: relative;
+  padding: 5rem 2rem;
+  margin: 0 30rem;
 }
 
 .corner-borders--left::before {
@@ -6390,17 +6404,6 @@ p.checkout-coupon input[type=text]::placeholder {
   border-top-style: solid;
   top: 0;
   left: 0;
-}
-
-.corner-borders::before, .corner-borders::after {
-  border-color: #ea1b29;
-  border-width: 5px;
-  content: "";
-  display: block;
-  height: 30%;
-  pointer-events: none;
-  position: absolute;
-  width: 15%;
 }
 
 .corner-borders--left::after {
@@ -6422,7 +6425,7 @@ p.checkout-coupon input[type=text]::placeholder {
   border-width: 5px;
   content: "";
   display: block;
-  height: 30%;
+  height: 50%;
   pointer-events: none;
   position: absolute;
   width: 15%;
@@ -6436,8 +6439,10 @@ p.checkout-coupon input[type=text]::placeholder {
 }
 
 .section-description {
-  font-weight: 800;
+  font-weight: 500;
   color: #000;
+  font-family: "Teko", sans-serif;
+  font-size: 18px;
 }
 
 .first-paragraph::first-letter {
