@@ -528,7 +528,7 @@ window.addEventListener('load', function() {
 		if (anchor) {
 			anchor.parentNode.removeChild(anchor);
 		}
-	}, 2000);
+	}, 3000);
 });
 
 })(jQuery);

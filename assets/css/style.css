@@ -1633,7 +1633,7 @@ textarea:focus {
   top: -4px;
 }
 
-.hero-play::after {
+.hero-play::after, .main-cta:after {
   position: absolute;
   content: "";
   width: 60px;
@@ -1655,7 +1655,8 @@ textarea:focus {
 }
 @media (max-width: 575px) {
   .hero-social-icon {
-    display: none;
+    /* display: none; */
+    top: 72%;
   }
 }
 .hero-social-icon a {
@@ -2484,12 +2485,13 @@ textarea:focus {
 }
 
 .tpsub-title-two {
-  font-size: 22px;
+  font-size: 35px;
   color: #ea1b29;
   text-transform: uppercase;
   line-height: 1.2;
   display: block;
   position: relative;
+  font-weight: 600;
 }
 .tpsub-title-two::before {
   position: absolute;
@@ -2497,12 +2499,12 @@ textarea:focus {
   background: #ea1b29;
   width: 25px;
   height: 2px;
-  top: 11px;
+  top: 20px;
   left: 225px;
 }
 @media (max-width: 480px) {
   .tpsub-title-two::before {
-    left: 50px;
+    left: 40px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -2521,12 +2523,12 @@ textarea:focus {
   background: #ea1b29;
   width: 25px;
   height: 2px;
-  top: 11px;
+  top: 20px;
   right: 225px;
 }
 @media (max-width: 480px) {
   .tpsub-title-two::after {
-    right: 50px;
+    right: 40px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -6397,6 +6399,9 @@ p.checkout-coupon input[type=text]::placeholder {
   position: relative;
   padding: 5rem 2rem;
   margin: 0 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .corner-borders--left::before {
@@ -6452,4 +6457,16 @@ p.checkout-coupon input[type=text]::placeholder {
 .fitness-info {
   display: none;
 }
+
+.cta {
+  position: absolute;
+  bottom: -25px;
+}
+
+.main-cta {
+  z-index: 999;
+  font-weight: 700;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
