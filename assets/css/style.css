@@ -6355,7 +6355,7 @@ p.checkout-coupon input[type=text]::placeholder {
 }
 
 .square__section {
-  background-image: linear-gradient(0deg, rgb(4 4 4 / 65%), rgb(10 10 10 / 65%)), url(../img/bg/studio.jpg);
+  background-image: linear-gradient(0deg, rgb(4 4 4 / 65%), rgb(10 10 10 / 65%)), url(https://res.cloudinary.com/dgzlg4mww/image/upload/v1712027916/studio_ezesmt.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
