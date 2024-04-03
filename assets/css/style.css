@@ -47,6 +47,7 @@ body {
   font-size: 15px;
   font-weight: normal;
   line-height: 28px;
+  background-color: #80808080;
 }
 
 a {
@@ -6534,5 +6535,8 @@ p.checkout-coupon input[type=text]::placeholder {
 .price_info {
   background: gray;
   color: #fff;
+}
+#pt {
+  background-color: #80808080;
 }
 /*# sourceMappingURL=style.css.map */
