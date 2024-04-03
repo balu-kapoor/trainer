@@ -2578,11 +2578,11 @@ textarea:focus {
 .section-border::before {
   position: absolute;
   content: "";
-  width: 95px;
+  width: 115px;
   height: 2px;
   background: #ea1b29;
   top: 35%;
-  left: 25px;
+  left: 0px;
 }
 
 .section-wrap-two {
@@ -3079,7 +3079,7 @@ textarea:focus {
   margin-right: 15px;
   color: #6a6b71;
   height: 30px;
-  width: 30px;
+  /* width: 30px; */
   text-align: center;
   line-height: 30px;
   /* border: 1px solid #ddd; */
@@ -6492,6 +6492,38 @@ p.checkout-coupon input[type=text]::placeholder {
 }
 
 .tpsub-title-two::before, .tpsub-title-two::after {
-  visibility: hidden;
+  display: none;
+}
+
+.square-brackets {
+  position: relative;
+  display: inline-block;
+}
+
+.square-brackets::before,
+.square-brackets::after {
+  content: "[";
+  position: absolute;
+  top: 0;
+  transform: translateY(-5%);
+  font-size: 1.2em;
+}
+
+.square-brackets::before {
+  left: -15px; 
+}
+
+.square-brackets::after {
+  content: "]";
+  right: -15px; 
+}
+
+.fa-check:before {
+  color: #fff;
+}
+
+.price_info {
+  background: gray;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
