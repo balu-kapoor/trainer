@@ -47,7 +47,7 @@ body {
   font-size: 15px;
   font-weight: normal;
   line-height: 28px;
-  background-color: #80808080;
+  background-color: #fff;
 }
 
 a {
@@ -6400,6 +6400,9 @@ p.checkout-coupon input[type=text]::placeholder {
     content: "]";
     right: -15px !important; 
   }
+  .top-logo img, .sidebar__logo img {
+    width: 150px !important;
+  }
 }
 
 .slogan-wrapper {
@@ -6535,6 +6538,10 @@ p.checkout-coupon input[type=text]::placeholder {
 .price_info {
   background: gray;
   color: #fff;
+  min-height: 47rem;
 }
 
+.top-logo img {
+  width: 250px;
+}
 /*# sourceMappingURL=style.css.map */
