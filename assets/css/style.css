@@ -6390,6 +6390,15 @@ p.checkout-coupon input[type=text]::placeholder {
   .slogan-title {
     font-size: 1.5rem;
   }
+
+  .square-brackets::before {
+    left: -15px !important; 
+  }
+  
+  .square-brackets::after {
+    content: "]";
+    right: -15px !important; 
+  }
 }
 
 .slogan-wrapper {
@@ -6510,12 +6519,12 @@ p.checkout-coupon input[type=text]::placeholder {
 }
 
 .square-brackets::before {
-  left: -15px; 
+  left: -30px; 
 }
 
 .square-brackets::after {
   content: "]";
-  right: -15px; 
+  right: -30px; 
 }
 
 .fa-check:before {
